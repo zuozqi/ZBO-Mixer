@@ -1,0 +1,273 @@
+ANSYS ICEM CFD Prism 16.0 compiled on 12/3/2014 at 3:01 p.m.
+running on Windows (64 bit version)
+(c) Copyright 1993 - 2014 Ansys Inc.
+process DESKTOP-NQUCTE6 2848
+reading surface model...
+reading mesh file...
+sizeof mesh_element 24
+sizeof element 40
+sizeof base_prism 144
+sizeof of one prism 152 bytes
+sizeof of one tet 176 bytes
+max_prism_angle reset to 174.261 because the min_prism_quality is 0.01
+checking the validity of the input mesh
+no orientation errors
+no errors detected
+smoothing triangles
+initializing element ratios
+beginning iteration
+selecting elements
+worst triangle aspect = 0.694969
+6639 quads/triangles selected
+3356 nodes selected
+iteration 1 completed
+selecting elements
+worst triangle aspect = 0.798377
+6638 quads/triangles selected
+3356 nodes selected
+iteration 2 completed
+selecting elements
+worst triangle aspect = 0.830157
+6638 quads/triangles selected
+3356 nodes selected
+iteration 3 completed
+selecting elements
+worst triangle aspect = 0.830157
+6638 quads/triangles selected
+3356 nodes selected
+iteration 4 completed
+selecting elements
+worst triangle aspect = 0.830157
+6638 quads/triangles selected
+3356 nodes selected
+iteration 5 completed
+smoothing tetra
+initializing element ratios
+beginning iteration
+ worst TETRA_4 0.122456
+smoothing  18 TETRA_4's (up to 0.299391)
+67 vertices selected
+iteration 1 complete
+ worst TETRA_4 0.27134
+smoothing  1 TETRA_4's (up to 0.27134)
+4 vertices selected
+iteration 2 complete
+ worst TETRA_4 >= 0.3
+iteration 3 complete
+worst TETRA_4 >= 0.3
+done smoothing
+marking shells
+6639 prisms to be created on part ROTATOR_WALL
+splitting thin baffles
+splitting nodes at large angles
+deleting standalone bar(s)
+initializing heights
+smoothing heights
+There are prism nodes without any prescribed initial/total heights:
+    heights will be determined from the local triangle sizes.
+Smoothing prism node heights: maximum jump factor 1.037363 after 6 iterations.
+done smoothing heights
+3367 verts growing 3 layers
+initializing directions from levelset norm
+3367 prism_nodes
+smoothing marching directions
+3356 prism_nodes
+iteration: 1 worst quality 0.372447
+iteration: 2 worst quality 0.410429
+iteration: 3 worst quality 0.410429
+iteration: 4 worst quality 0.413635
+iteration: 5 worst quality 0.413635
+iteration: 6 worst quality 0.415729
+iteration: 7 worst quality 0.416083
+iteration: 8 worst quality 0.412066
+final iteration: worst extruded element quality 0.412066
+completed smoothing
+extruding prism layer 1
+0 flat tetrahedra created between layers
+0 pointy tetrahedra created between layers
+worst prism quality: 0.412066
+worst pyramid quality: 0.4173
+worst tet quality: 0.144865
+no orientation errors
+no orientation errors
+writing out prism layer 1
+done
+initializing directions from levelset norm
+3367 prism_nodes
+smoothing marching directions
+3335 prism_nodes
+iteration: 1 worst quality 0.318499
+iteration: 2 worst quality 0.426737
+iteration: 3 worst quality 0.453559
+iteration: 4 worst quality 0.477782
+iteration: 5 worst quality 0.480889
+iteration: 6 worst quality 0.468093
+iteration: 7 worst quality 0.468598
+iteration: 8 worst quality 0.489772
+iteration: 9 worst quality 0.49585
+iteration: 10 worst quality 0.493204
+final iteration: worst extruded element quality 0.49322
+completed smoothing
+extruding prism layer 2
+first_t 16%
+first_t 33%
+first_t 50%
+first_t 66%
+first_t 83%
+0 flat tetrahedra created between layers
+0 pointy tetrahedra created between layers
+worst prism quality: 0.49322
+worst pyramid quality: 0.564973
+worst tet quality: 0.268808
+no orientation errors
+no orientation errors
+writing out prism layer 2
+done
+initializing directions from levelset norm
+3346 prism_nodes
+smoothing marching directions
+3305 prism_nodes
+iteration: 1 worst quality 0.230721
+iteration: 2 worst quality 0.29754
+iteration: 3 worst quality 0.298033
+iteration: 4 worst quality 0.30814
+iteration: 5 worst quality 0.30814
+iteration: 6 worst quality 0.30814
+iteration: 7 worst quality 0.30814
+final iteration: worst extruded element quality 0.30814
+completed smoothing
+extruding prism layer 3
+first_t 16%
+first_t 33%
+first_t 50%
+first_t 66%
+first_t 83%
+returning with first_t == 0.578038
+0 flat tetrahedra created between layers
+0 pointy tetrahedra created between layers
+worst prism quality: 0.35495
+worst pyramid quality: 0.30814
+worst tet quality: 0.13658
+no orientation errors
+no orientation errors
+writing out prism layer 3
+done
+refining tetra-prism boundary
+performing cleanup smoothing
+initializing element ratios
+beginning iteration
+ worst TETRA_4 1.01426e-005 worst PYRA_5 0.0363497
+smoothing  336 TETRA_4's (up to 0.000641349) 9 PYRA_5's (up to 0.187857)
+1009 vertices selected
+iteration 1 complete
+ worst TETRA_4 0.000519256 worst PYRA_5 0.0363497
+smoothing  327 TETRA_4's (up to 0.0101922) 9 PYRA_5's (up to 0.200222)
+923 vertices selected
+iteration 2 complete
+ worst TETRA_4 0.00383799 worst PYRA_5 0.0363497
+smoothing  322 TETRA_4's (up to 0.0485792) 9 PYRA_5's (up to 0.200222)
+910 vertices selected
+iteration 3 complete
+ worst TETRA_4 0.00490054 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.10774) 9 PYRA_5's (up to 0.200222)
+868 vertices selected
+iteration 4 complete
+ worst TETRA_4 0.0129572 worst PYRA_5 0.0363497
+smoothing  318 TETRA_4's (up to 0.156121) 9 PYRA_5's (up to 0.200222)
+889 vertices selected
+iteration 5 complete
+ worst TETRA_4 0.0607025 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.190553) 9 PYRA_5's (up to 0.200222)
+901 vertices selected
+iteration 6 complete
+ worst TETRA_4 0.0771674 worst PYRA_5 0.0363497
+smoothing  318 TETRA_4's (up to 0.216781) 9 PYRA_5's (up to 0.200222)
+916 vertices selected
+iteration 7 complete
+ worst TETRA_4 0.130848 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.23322) 9 PYRA_5's (up to 0.200222)
+895 vertices selected
+iteration 8 complete
+ worst TETRA_4 0.0852843 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.247016) 9 PYRA_5's (up to 0.200222)
+886 vertices selected
+iteration 9 complete
+ worst TETRA_4 0.122019 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.259899) 9 PYRA_5's (up to 0.200222)
+881 vertices selected
+iteration 10 complete
+worst TETRA_4 0.0955714
+initializing element ratios
+beginning iteration
+selecting elements
+worst triangle aspect = 0.245162
+worst quad aspect > 0.300000
+2 quads/triangles selected
+2 nodes selected
+iteration 1 completed
+selecting elements
+worst triangle aspect = 0.257089
+worst quad aspect > 0.300000
+1 quads/triangles selected
+1 nodes selected
+iteration 2 completed
+selecting elements
+worst triangle aspect > 0.300000
+worst quad aspect > 0.300000
+initializing element ratios
+beginning iteration
+iteration 1 completed (Residual 1.000000)
+iteration 2 completed (Residual 0.416852)
+iteration 3 completed (Residual 0.217334)
+iteration 4 completed (Residual 0.150279)
+iteration 5 completed (Residual 0.120163)
+initializing element ratios
+beginning iteration
+ worst TETRA_4 0.0117211 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.266726) 9 PYRA_5's (up to 0.200222)
+864 vertices selected
+iteration 1 complete
+ worst TETRA_4 0.13658 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.274482) 9 PYRA_5's (up to 0.200222)
+879 vertices selected
+iteration 2 complete
+ worst TETRA_4 0.13658 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.280997) 9 PYRA_5's (up to 0.200222)
+906 vertices selected
+iteration 3 complete
+ worst TETRA_4 0.13658 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.284925) 9 PYRA_5's (up to 0.200222)
+878 vertices selected
+iteration 4 complete
+ worst TETRA_4 0.13658 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.289169) 9 PYRA_5's (up to 0.200222)
+870 vertices selected
+iteration 5 complete
+ worst TETRA_4 0.13658 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.292049) 9 PYRA_5's (up to 0.200222)
+840 vertices selected
+iteration 6 complete
+ worst TETRA_4 0.13658 worst PYRA_5 0.0363497
+smoothing  319 TETRA_4's (up to 0.294072) 9 PYRA_5's (up to 0.200222)
+856 vertices selected
+iteration 7 complete
+ worst TETRA_4 0.13658 worst PYRA_5 0.0363497
+smoothing  318 TETRA_4's (up to 0.295982) 9 PYRA_5's (up to 0.200222)
+821 vertices selected
+iteration 8 complete
+ worst TETRA_4 0.13658 worst PYRA_5 0.0363497
+smoothing  318 TETRA_4's (up to 0.297372) 9 PYRA_5's (up to 0.200222)
+818 vertices selected
+iteration 9 complete
+ worst TETRA_4 0.13658 worst PYRA_5 0.0363497
+smoothing  318 TETRA_4's (up to 0.29808) 9 PYRA_5's (up to 0.200222)
+782 vertices selected
+iteration 10 complete
+worst TETRA_4 0.13658
+Created inflation elements:
+    Layer 1: 6639 prisms, 21 pyramids, 0 hexas
+    Layer 2: 6588 prisms, 30 pyramids, 0 hexas
+    Layer 3: 6514 prisms, 44 pyramids, 0 hexas
+writing out smoothed mesh
+done
+prism finished
